@@ -1,8 +1,8 @@
 name: QA
 
 on:
-  pull_request:
-    branches: ["*"]
+  push:
+    branches: ["herosony"]
 
 jobs:
   check-lock:
